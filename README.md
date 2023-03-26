@@ -1,10 +1,19 @@
 # dockerでのnextjs開発環境構築
 
-# install
+# nodeコンテナの起動
 ```
 cd docker
 docker compose up -d
+```
+
+# nodeコンテナに入る
+```
 docker exec -it nextjs-sample1 zsh
 ```
-# start
-```npm run build```
+# 必要モジュールのインストール
+```
+npm init
+```
+
+# 起動
+```npm run dev```
