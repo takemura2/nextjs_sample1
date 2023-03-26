@@ -3,7 +3,7 @@
 # install
 `
 cd docker
-docker compose up -d
+docker compose up -d  
 docker exec -it nextjs-sample1 zsh
 `
 # start
