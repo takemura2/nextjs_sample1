@@ -3,9 +3,8 @@
 # install
 ```
 cd docker
-  
-docker compose up -d<br>
-docker exec -it nextjs-sample1 zsh<br>  
+docker compose up -d
+docker exec -it nextjs-sample1 zsh
 ```
 # start
 ```npm run build```
